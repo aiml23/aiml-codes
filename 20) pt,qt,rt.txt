@@ -1,0 +1,10 @@
+dt_value <- dt(2, df = 10)
+
+# Cumulative distribution function (pt)
+pt_value <- pt(2, df = 10)
+
+# Quantile function (qt)
+qt_value <- qt(0.95, df = 10)
+
+# Random sample generation (rt)
+rt_value <- rt(5, df = 10)

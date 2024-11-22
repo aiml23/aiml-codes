@@ -1,0 +1,6 @@
+plot(iris$Sepal.Length, iris$Petal.Length, 
+     main = "Scatterplot of Sepal Length vs Petal Length", 
+     xlab = "Sepal Length", 
+     ylab = "Petal Length", 
+     col = "blue", 
+     pch = 19)

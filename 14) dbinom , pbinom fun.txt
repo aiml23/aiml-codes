@@ -1,0 +1,5 @@
+# Probability mass function (dbinom)
+dbinom(3, size = 10, prob = 0.5)
+
+# Cumulative distribution function (pbinom)
+pbinom(3, size = 10, prob = 0.5)

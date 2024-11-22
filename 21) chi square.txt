@@ -1,0 +1,11 @@
+# Probability density function (dchisq)
+dchisq_value <- dchisq(3, df = 5)
+
+# Cumulative distribution function (pchisq)
+pchisq_value <- pchisq(3, df = 5)
+
+# Quantile function (qchisq)
+qchisq_value <- qchisq(0.95, df = 5)
+
+# Random sample generation (rchisq)
+rchisq_value <- rchisq(5, df = 5)

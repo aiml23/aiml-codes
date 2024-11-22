@@ -1,0 +1,6 @@
+x <- mtcars
+print(x)
+max(x$cyl)
+min(x$cyl)
+which.max(x$cyl)
+which.min(x$cyl)

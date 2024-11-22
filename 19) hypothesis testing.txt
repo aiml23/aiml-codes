@@ -1,0 +1,2 @@
+t_test_result <- t.test(iris$Sepal.Length, mu = 5)
+t_test_result

@@ -1,0 +1,8 @@
+#Question No.:7 
+print(iris)
+data <- iris$Sepal.Length
+var(data)
+sd(data)
+range(data)
+diff(range(data))
+mean(abs(data - mean(data)))

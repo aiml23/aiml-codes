@@ -1,0 +1,6 @@
+data <- iris$Sepal.Length
+hist(data, main = "Histogram", xlab = "Sepal Length", col = "blue", border = "black")
+
+freq <- table(cut(data, breaks = seq(min(data), max(data), by = 0.5)))
+cum_freq <- cumsum(freq)
+plot(cum_freq, type = "o", main = "Ogive Curve", xlab = "Sepal Length", ylab = "Cumulative Frequency", col = "red")

@@ -1,0 +1,17 @@
+data <- iris$Sepal.Length
+freq_table <- table(data)
+cum_freq <- cumsum(freq_table)
+rel_freq <- prop.table(freq_table)
+print(freq_table)
+print(cum_freq)
+print(rel_freq)
+
+breaks <- seq(min(data), max(data), by = 0.5)
+freq_table2 <- table(cut(data, breaks = breaks))
+print(freq_table2)
+
+ggplot(as.data.frame(freq_table), aes(x = data, y = Freq)) + 
+  geom_bar(stat = "identity") + 
+  xlab("Values") + 
+  ylab("Frequency") + 
+  ggtitle("Frequency Table Plot")

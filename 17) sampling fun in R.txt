@@ -1,0 +1,6 @@
+sample_data <- sample(1:100, 10)
+sample_data
+
+# Sample with replacement
+sample_with_replacement <- sample(1:100, 10, replace = TRUE)
+sample_with_replacement

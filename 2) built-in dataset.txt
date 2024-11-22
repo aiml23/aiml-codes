@@ -1,0 +1,23 @@
+# Load and print the built-in mtcars dataset
+data(mtcars)
+print(mtcars)
+
+# b. Get information about the dataset
+str(mtcars)
+
+# c. Find the dimensions and view the names of the variables
+cat("Dimensions of the dataset:", dim(mtcars), "\n")
+cat("Names of the variables:", names(mtcars), "\n")
+
+# d. Find the name of each row in the first column
+cat("Row names:", rownames(mtcars), "\n")
+
+# e. Print all values that belong to a variable (e.g., mpg)
+cat("Values of mpg variable:", mtcars$mpg, "\n")
+
+# f. Sort the values of a variable (e.g., mpg)
+sorted_mpg <- sort(mtcars$mpg)
+cat("Sorted mpg in ascending order:", sorted_mpg, "\n")
+
+# g. Get the statistical summary of the data
+summary(mtcars)

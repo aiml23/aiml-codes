@@ -1,0 +1,3 @@
+data <- iris
+regression_model <- lm(Petal.Length ~ Sepal.Length, data = data)
+summary(regression_model)

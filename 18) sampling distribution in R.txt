@@ -1,0 +1,6 @@
+population <- rnorm(1000, mean = 50, sd = 10)
+sample_data <- sample(population, 30)
+
+# Create sampling distribution by repeating sampling process
+sampling_distribution <- replicate(1000, mean(sample(population, 30)))
+hist(sampling_distribution, main = "Sampling Distribution", xlab = "Sample Mean", col = "lightblue")
