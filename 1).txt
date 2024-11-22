@@ -1,0 +1,54 @@
+#a. Perform the addition and difference in R
+#Numeric Numbers in R Language
+num_1 <- 3.3
+num_2 <- 3.8
+sum <- num_1 + num_2
+diff <- num_2 - num_2
+cat('Sum:',sum,'\n')
+cat('Difference:',diff,'\n')
+
+#Integer Numbers in R Language
+n1 <- 3L
+n2 <- 4L
+sum_1 <- n1+n2
+diff_1 <- n1-n2
+cat('Sum:',sum_1,'\n')
+cat('Difference:',diff_1,'\n')
+
+#Complex Numbers in R Language
+n3 <- 3+4i
+n4 <- 1+2i
+sum_2 <- n3+n4
+diff_2 <- n3-n4
+cat('Sum:',sum_2)
+cat('Difference:',diff_2)
+
+#b. Convert Data Types
+#i. Numeric to integer
+num <- 3.3
+con <- as.integer(num)
+cat('Numeric to Integer:',con,'\n')
+#ii. Numeric to complex
+n <- 2.2
+con_1 <- as.complex(n)
+cat('Numeric to Complex:',con_1,'\n')
+#iii. Integer to Numeric
+n5 <- 3L
+con_2 <- as.numeric(n5)
+cat('Integer to Numeric',con_2,'\n')
+#iv. Integer to Complex
+n6 <- 4L
+con_3 <- as.complex(n6)
+cat('Integer to Complex:',con_3,'\n')
+#v. Complex to numeric
+n7 <- 1+3i
+con_4 <- Re(n7)
+cat('Complex to Numeric:',con_4,'\n')
+#vi. Complex to Integer
+n8 <- 2+3i
+con_5 <- as.integer(Re(n8))
+cat('Complex to Integer:',con_5,'\n')
+
+n9 <- 36
+sqrt_number <- sqrt(n9)
+cat('Square Root of 36:',sqrt_number,'\n')

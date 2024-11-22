@@ -1,0 +1,11 @@
+y <- c(12,34,33,33,56,76,54,56)
+mean_value <- mean(y)
+median_value <- median(y)
+mode_value <- mfv(y)
+cat('Mean Value of the vector:',mean_value)
+cat('Median Value of the vector:',median_value)
+cat('Mode Value of the Vector:',mode_value)
+x <- mtcars
+mean(x$cyl)
+median(x$cyl)
+mfv(x$cyl)

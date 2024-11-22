@@ -1,0 +1,14 @@
+
+# b. Compute correlation in R
+cor(iris$Sepal.Length, iris$Petal.Length)
+
+# c. Import your data into R (data already available as 'iris')
+data <- iris
+
+# d. Visualize your data using scatter plots
+ggplot(data, aes(x = Sepal.Length, y = Petal.Length)) + 
+  geom_point() + 
+  ggtitle("Scatter Plot: Sepal Length vs Petal Length")
+
+# e. Preliminary test to check assumptions
+plot(iris$Sepal.Length, iris$Petal.Length)

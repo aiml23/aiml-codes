@@ -1,0 +1,5 @@
+# Probability mass function (dpois)
+dpois(3, lambda = 2)
+
+# Cumulative distribution function (ppois)
+ppois(3, lambda = 2)

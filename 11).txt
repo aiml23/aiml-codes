@@ -1,0 +1,7 @@
+# a. Pearson correlation test
+pearson_corr <- cor(iris$Sepal.Length, iris$Petal.Length, method = "pearson")
+pearson_corr
+
+# c. Spearman rank correlation coefficient
+spearman_corr <- cor(iris$Sepal.Length, iris$Petal.Length, method = "spearman")
+spearman_corr
